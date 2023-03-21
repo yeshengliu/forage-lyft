@@ -1,5 +1,5 @@
 """
-This is an abstract class for car engines
+This is an interface for car engines
 """
 
 from abc import ABC, abstractmethod
@@ -7,7 +7,7 @@ from abc import ABC, abstractmethod
 
 class Engine(ABC):
     def __init__(self):
-        return
+        pass
 
     @abstractmethod
     def needs_service(self):

@@ -1,13 +1,10 @@
 """
-This is an interface for batteries
+This is an interface to access Car object
 """
-
 from abc import ABC, abstractmethod
 
 
-class Battery(ABC):
-    def __init__(self):
-        pass
+class Serviceable(ABC):
 
     @abstractmethod
     def needs_service(self):
